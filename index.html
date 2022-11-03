@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WONTECH</title>
+<link rel="icon" href="https://www.openidea.co.kr/data/common/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/jquery.fancybox.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/font-icon.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="css/style4.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<style>
+.lang {
+        position: fixed;
+        left: 23px;
+        z-index: 3;
+        font-size: 20px;
+        cursor:pointer;
+    }
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.lang-ko {
+    top: 200px;
+}
+.lang-zh {
+    top: 230px;
+}
+.lang-en {
+    top: 260px;
+}
+</style>
+</head>
+
+<body>
+  <div id="contents"></div>
+<script id="openidea-template" type="text/x-handlebars-template">
+    <ul>
+        <li>
+            <a class="lang lang-ko" href="javascript:;" onclick="changeLang('ko')"><img loading="lazy" draggable="false" role="img" class="emoji" src="http://www.revolutio.com.au/wordpress/wp-content/plugins/svg-flags-lite/assets/flag-icon-css/flags/4x3/kr.svg"></a>
+        </li>
+        <li>
+            <a class="lang lang-zh"  href="javascript:;" onclick="changeLang('zh')"><img loading="lazy" draggable="false" role="img" class="emoji" src="http://www.revolutio.com.au/wordpress/wp-content/plugins/svg-flags-lite/assets/flag-icon-css/flags/4x3/cn.svg"></a>
+        </li>
+        <li>
+            <a class="lang lang-en"  href="javascript:;" onclick="changeLang('en')"><img loading="lazy" draggable="false" role="img" class="emoji" src="http://www.revolutio.com.au/wordpress/wp-content/plugins/svg-flags-lite/assets/flag-icon-css/flags/4x3/us.svg"></a>
+        </li>
+    </ul>
+    <!-- header section -->
+    {{#header}} 
+    <section class="banner" role="banner">
+      <header id="header">
+        <div class="header-content clearfix"> <a class="logo" href="index.html">OPENIDEA</a>
+          <nav class="navigation" role="navigation">
+            <ul class="primary-nav">
+              <li><a href="#banner">{{home}}</a></li>
+              <li><a href="#services">{{services}}</a></li>
+              <li><a href="#content-3-10">{{about}}</a></li> 
+              <li><a href="#gallery">{{gallery}}</a></li>
+              <li><a href="#teams">{{teams}}</a></li>
+              <li><a href="#testimonials">{{testimonials}}</a></li>
+              <li><a href="#contact">{{contact}}</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="nav-toggle">Menu<span></span></a> </div>
+      </header>
+      <!-- banner text --> 
+        <div class="banner" id="banner"> 
+        <ul class="cb-slideshow">
+                <li><span>Image 01</span><div><h3>Without Wires In The World</h3></div></li>
+                <li><span>Image 02</span><div><h3>Product Display</h3></div></li>
+                <li><span>Image 01</span><div><h3>Without Wires In The World</h3></div></li>
+                <li><span>Image 02</span><div><h3>Product Display</h3></div></li>
+                <li><span>Image 01</span><div><h3>Without Wires In The World</h3></div></li>
+                <li><span>Image 02</span><div><h3>Product Display</h3></div></li>
+            </ul>
+          <!-- banner text --> 
+        </div> 
+    </section>
+    {{/header}} 
+    <!-- header section --> 
+    {{#body}}
+    <!-- intro section -->
+    <section id="intro" class="section intro">
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <h3>PASSION IS THE ESSENCE OF CLICKING GREAT</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </section>
+    <!-- intro section --> 
+    <!-- services section -->
+    <section id="services" class="services service-section">
+      <div class="container">
+      <div class="section-header">
+                    <h2 class="wow fadeInDown animated">Our Services</h2>
+                    <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-strategy"></span>
+            <div class="services-content">
+              <h5>Web Design</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-briefcase"></span>
+            <div class="services-content">
+              <h5>Web Development</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-tools"></span>
+            <div class="services-content">
+              <h5>User Experience</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-genius"></span>
+            <div class="services-content">
+              <h5>Quality</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-megaphone"></span>
+            <div class="services-content">
+              <h5>Nature</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 services text-center"> <span class="icon icon-trophy"></span>
+            <div class="services-content">
+              <h5>Photography</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu libero scelerisque ligula sagittis faucibus eget quis lacus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services section --> 
+    <!--About-->
+    <section id="content-3-10" class="content-block data-section nopad content-3-10">
+      <div class="image-container col-sm-6 col-xs-12 pull-left">
+        <div class="background-image-holder">
+
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-6 col-xs-12 content">
+            <div class="editContent">
+              <h3>{{company_0}}</h3>
+            </div>
+            <div class="editContent">
+              <p>{{company_1}}</p>
+              <p>{{company_2}}</p>
+            </div>
+            <a href="#gallery" class="btn btn-outline btn-outline outline-dark">Our Gallery</a>
+          </div>
+        </div><!-- /.row-->
+      </div><!-- /.container -->
+    </section>
+
+
+    <!-- package section -->
+    <section class="video-section">
+      <div class="container"> 
+        <div class="row">  
+                <div id="content24" data-section="content-24" class="data-section"> 
+            <div class="col-md-6">
+            <h3 class="eidtContent">Content Video</h3>
+            <p class="eidtContent">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+              <p class="editContent">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            <p class="editContent">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+            </div>
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/146742515?badge=0" allowfullscreen=""></iframe>
+            </div>
+          </div> 
+          </div>
+          </div><!-- end row -->    
+      </div>
+    </section>
+    <!-- package section --> 
+
+    <!-- gallery section -->
+    <section id="gallery" class="gallery section">
+      <div class="container-fluid">
+        <div class="section-header">
+                    <h2 class="wow fadeInDown animated">Gallery</h2>
+                    <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+        <div class="row no-gutter">
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/01.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/01.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/02.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/02.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/03.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/03.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/04.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/04.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption"> 
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/05.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/05.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/06.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/06.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/07.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/07.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 work"> <a href="images/portfolio/08.jpg" class="work-box"> <img loading="lazy" src="images/portfolio/08.jpg" alt="">
+            <div class="overlay">
+              <div class="overlay-caption">
+                <p><span class="icon icon-magnifying-glass"></span></p>
+              </div>
+            </div>
+            <!-- overlay --> 
+            </a> </div>
+        </div>
+      </div>
+    </section>
+    <!-- gallery section --> 
+    <!-- our team section -->
+    <section id="teams" class="section teams">
+      <div class="container">
+          <div class="section-header">
+                    <h2 class="wow fadeInDown animated">Our Team</h2>
+                    <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="person"><img loading="lazy" src="images/team-1.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Jonh Dow</h4>
+                <h5 class="role">Founder</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+              </div>
+              <ul class="social-icons clearfix">
+                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter"></span></a></li> 
+                <li><a href="#"><span class="fa fa-google-plus"></span></a></li> 
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person"> <img loading="lazy" src="images/team-2.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Markus Linn</h4>
+                <h5 class="role">Creative</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+              </div>
+              <ul class="social-icons clearfix">
+                <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li> 
+                <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li> 
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person"> <img loading="lazy" src="images/team-3.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Chris Jemes</h4>
+                <h5 class="role">Technical</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+              </div>
+              <ul class="social-icons clearfix">
+                <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li> 
+                <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li> 
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="person"> <img loading="lazy" src="images/team-4.jpg" alt="" class="img-responsive">
+              <div class="person-content">
+                <h4>Vintes Mars</h4>
+                <h5 class="role">Marketing</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eget risus vitae massa.</p>
+              </div>
+              <ul class="social-icons clearfix">
+                <li><a href="#" class=""><span class="fa fa-facebook"></span></a></li>
+                <li><a href="#" class=""><span class="fa fa-twitter"></span></a></li> 
+                <li><a href="#" class=""><span class="fa fa-google-plus"></span></a></li> 
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our team section --> 
+    <!-- Testimonials section -->
+    <section id="testimonials" class="section testimonials no-padding">
+      <div class="container-fluid">
+        <div class="row no-gutter">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+    semper aliquam quis mattis consectetur adipiscing elit.." </h1>
+                    <p>Chris Mentsl</p>
+                  </blockquote>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Praesent eget risus vitae massa Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+    semper aliquam quis mattis consectetur adipiscing elit.." </h1>
+                    <p>Kristean velnly</p>
+                  </blockquote>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Consectetur adipiscing elit Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+    semper aliquam quis mattis consectetur adipiscing elit.." </h1>
+                    <p>Markus Denny</p>
+                  </blockquote>
+                </div>
+              </li>
+              <li>
+                <div class="col-md-12">
+                  <blockquote>
+                    <h1>"Vitae massa semper aliquam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa 
+    semper aliquam quis mattis consectetur adipiscing elit.." </h1>
+                    <p>John Doe</p>
+                  </blockquote>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials section --> 
+
+    <!-- contact section -->
+    <section id="contact" class="section">
+      <div class="container">
+          <div class="section-header">
+                    <h2 class="wow fadeInDown animated">Contact Us</h2>
+                    <p class="wow fadeInDown animated">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget risus vitae massa <br> semper aliquam quis mattis quam.</p>
+                </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 conForm">       
+            <div id="message"></div>
+            <form method="post" action="php/contact.php" name="cform" id="cform">
+              <input name="name" id="name" type="text" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Your name..." >
+              <input name="email" id="email" type="email" class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 noMarr" placeholder="Email Address..." >
+              <textarea name="comments" id="comments" cols="" rows="" class="col-xs-12 col-sm-12 col-md-12 col-lg-12" placeholder="Message..."></textarea>
+              <input type="submit" id="submit" name="send" class="submitBnt" value="Send">
+              <div id="simple-msg"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section --> 
+    {{/body}}
+    <!-- Footer section -->
+    <footer class="footer">
+      <section id="services" style="padding:40px;">
+       
+     
+        <div class="container-fluid">
+
+ 
+                <div class="row">
+                  <div class="col-md-2 col-sm-6 text-center"></div>
+                  <div class="col-md-2 col-sm-6 text-center"></div>
+                  <div class="col-md-2 col-sm-6 text-center">
+                    <address style="color:#fff;">
+                          <strong>Company name</strong><br>
+                          1234 Street Dr.<br>
+                          Vancouver, BC<br>
+                          Canada<br>
+                          V6G 1G9<br>
+                          <abbr title="Phone">Tel:</abbr> (604) 555-4321
+                        </address>
+                  </div>
+                  <div class="col-md-2 col-sm-6 text-center">
+                    <address style="color:#fff;">
+                        <strong>Company name</strong><br>
+                        1234 Street Dr.<br>
+                        Vancouver, BC<br>
+                        Canada<br>
+                        V6G 1G9<br>
+                        <abbr title="Phone">Tel:</abbr> (604) 555-4321
+                      </address>
+                  </div>
+                  <div class="col-md-2 col-sm-6 text-center"></div>
+                  <div class="col-md-2 col-sm-6 text-center"></div>
+                </div>
+              
+              
+              <div style="width:100%;text-align:center;">© 2022 Company Name.</div>
+        </div>
+        </section>
+    
+    </footer>
+    <!-- Footer section --> 
+</script>
+<!-- JS FILES --> 
+<script src="js/jquery.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/jquery.flexslider-min.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/retina.min.js"></script> 
+<script src="js/modernizr.js"></script> 
+<script src="js/handlebars.js"></script>
+<script src="js/main.js"></script> 
+</body>
+</html>

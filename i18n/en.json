@@ -1,0 +1,16 @@
+{
+    "header": {
+        "home": "HOME",
+        "services":"SERVICES",
+        "about":"ABOUT",
+        "gallery":"GALLERY",
+        "teams":"OUR TEAM",
+        "testimonials":"TESTIMONIALS",
+        "contact":"CONTACT"
+    },
+    "body": {
+        "company_0":"Won Electronic Technology Co.,LTD",
+        "company_1":"Won Electronic Technology Co.,LTD 2015년에 설립되었으며, 주소는 둥관 펑강진 하이융테크노파크이며, 회사는 연구개발, 생산, 판매, 공업무역 일체 다원화된 독자기업이다.",
+        "company_2":"주요 제품 코일과 FPC 코일은 1mm에서 300mm까지 작은 인덕턴스 코일, 불규칙 이형 중공 자기 접착 코일, 이어폰 코일, 무선 충전 코일, 각종 부대 플라스틱 부품은 고객에게 원스톱 솔루션을 개발, 제조한다."
+    }
+}
