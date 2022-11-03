@@ -73,7 +73,7 @@ function changeLang(lang) {
  function loadContents(lang) {
    var source   = $('#openidea-template').html();
    var template = Handlebars.compile(source);
-   $.getJSON("/open/i18n/"+lang+".json", function(json) {
+   $.getJSON("/won/i18n/"+lang+".json", function(json) {
 	   var vHtml = template(json);
 	   $('#contents').html(vHtml);
    });
