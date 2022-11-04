@@ -22,7 +22,7 @@ $(document).ready(function() {
 	// Page Scroll
 	var sections = $('section')
 		nav = $('nav[role="navigation"]');
-
+/*
 	$(window).on('scroll', function () {
 	  	var cur_pos = $(this).scrollTop();
 	  	sections.each(function() {
@@ -34,7 +34,7 @@ $(document).ready(function() {
 	    	}
 	  	});
 	});
-	
+*/	
 	$(document).on('click', 'nav[role="navigation"] a', function () {
 	  	var $el = $(this)
 	    	id = $el.attr('href');
