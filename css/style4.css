@@ -338,6 +338,8 @@
 	.cb-slideshow li div h3 { font-size: 100px }
 }
 @media screen and (max-width: 600px) { 
+	.banner {height:480px;}
+	.cb-slideshow li div h3 {line-height: 50px;}
 	.cb-slideshow li div h3 { font-size: 50px }
 	.cb-slideshow li:nth-child(1) span { background-image: url(../images/slides/01_m.jpg) }
 	.cb-slideshow li:nth-child(2) span {
