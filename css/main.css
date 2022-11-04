@@ -487,11 +487,11 @@ ul li {
 	margin-top: -10px;
 }
 #header.fixed {
-	background-color: #f7f7f7;
+	background-color: #f8a700;
 }
-#header.fixed a {
+/* #header.fixed a {
 	color: #000;
-}
+} */
 #header.fixed .header-content {
 	border-bottom: 0;
 	padding: 25px 0;
