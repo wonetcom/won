@@ -417,6 +417,7 @@ img.emoji {
     <!-- contact section --> 
     {{/body}}
     <!-- Footer section -->
+    {{footer}}
     <footer class="footer">
       <section id="services" style="padding:40px;">
        
@@ -429,13 +430,12 @@ img.emoji {
                   <div class="col-md-2 col-sm-6 text-center"></div>
                   <div class="col-md-2 col-sm-6 text-center">
                     <address style="color:#fff;">
-                          <strong>Company name</strong><br>
-                          1234 Street Dr.<br>
-                          Vancouver, BC<br>
-                          Canada<br>
-                          V6G 1G9<br>
-                          <abbr title="Phone">Tel:</abbr> (604) 555-4321
-                        </address>
+                          <strong>{{company_0}}</strong><br>
+                          {{address1}}<br>
+                          {{address2}}<br>
+                          <!-- <abbr title="Phone">Tel:</abbr> (604) 555-4321</address> -->
+                          {{tel}}<br>
+                          {{email}}
                   </div>
                   <div class="col-md-2 col-sm-6 text-center">
                     <address style="color:#fff;">
@@ -457,6 +457,7 @@ img.emoji {
         </section>
     
     </footer>
+    {{/footer}}
     <!-- Footer section --> 
 </script>
 <!-- JS FILES --> 
