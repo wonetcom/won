@@ -338,6 +338,9 @@
 	.cb-slideshow li div h3 { font-size: 100px }
 }
 @media screen and (max-width: 600px) { 
+	#header.fixed {
+		background-color: unset;
+	}
 	.banner {height:480px;}
 	.cb-slideshow li div h3 {line-height: 50px;}
 	.cb-slideshow li div h3 { font-size: 50px }
