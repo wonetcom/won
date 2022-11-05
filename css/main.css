@@ -858,6 +858,11 @@ About
 	-o-background-size: cover;
 	background-size: cover;
 	height: 100%;
+	display: block;
+}
+
+.content-3-10 .image-container img {
+	display:none;
 }
 
 .content-3-10 .content {

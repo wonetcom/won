@@ -388,6 +388,10 @@
 	}
 
 	.content-3-10 .image-container .background-image-holder {
-		background: url(../images/slides/1_m.jpg) no-repeat center
+		display:none;
+	}
+
+	.content-3-10 .image-container img {
+		display:block;
 	}
 }
