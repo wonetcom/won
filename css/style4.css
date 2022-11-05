@@ -392,6 +392,7 @@
 	}
 
 	.content-3-10 .image-container img {
+		width:100%;
 		display:block;
 	}
 
