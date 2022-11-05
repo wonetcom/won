@@ -394,4 +394,8 @@
 	.content-3-10 .image-container img {
 		display:block;
 	}
+
+	.content-3-10 .content {
+		margin-top: 200px;
+	}
 }
