@@ -11,7 +11,7 @@
     content: '';
     background: transparent url(../images/pattern.png) repeat top left;
 }
-.cb-slideshow li span {
+.cb-slideshow li span,.cb-slideshow li img {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -337,7 +337,7 @@
 	100% { opacity: 0 }
 }
 /* Show at least something when animations not supported */
-.no-cssanimations .cb-slideshow li span{
+.no-cssanimations .cb-slideshow li span, .no-cssanimations .cb-slideshow li img{
 	opacity: 1;
 }
 @media screen and (max-width: 1140px) { 
