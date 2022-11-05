@@ -355,6 +355,7 @@
 	}
 	.cb-slideshow li img {
 		display: block;
+		width:100%;
 	}
 	.cb-slideshow li:nth-child(2) img {
 		-webkit-animation-delay: 6s;
