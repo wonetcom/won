@@ -892,7 +892,8 @@ About
 	
 	.content-3-10 .content {
 		margin-top: 0px;
-		padding: 80px 15px 80px 80px;
+		/* padding: 80px 15px 80px 80px; */
+		padding: 80px;
 		background: #eaeaea;
 	}
 	
